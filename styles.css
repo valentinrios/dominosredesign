@@ -65,7 +65,13 @@ nav div{
 }
 
 .carousel-section{
+    display: flex;
+    font-size: 14px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: white;
+    text-align: center;
     width: 45%;
     height: 150px;
     border-radius: 20px;
@@ -73,6 +79,21 @@ nav div{
     -moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.02);
     box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.02);
 } 
+
+.carousel-section_img{
+    height: 65px;
+    margin: 5px;
+    border-radius: 15px;
+}
+
+.carousel-section_info div:first-child{
+    font-weight: bold;
+}
+
+.carousel-section_info div:last-child{
+    color: gray;
+}
+
 .contacts{
     margin: 20px 25px 0px;
 }
@@ -97,8 +118,7 @@ nav div{
 .contacts-search{
     background-color: #505c8c;
     margin-top: 20px;
-    margin-bottom: 20px;
-    height: 46px;
+    height: 38px;
     border-radius: 39px;
     border: 0px;
     width: -webkit-fill-available;
