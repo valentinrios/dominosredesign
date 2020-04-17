@@ -91,6 +91,25 @@ nav div{
     -moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.02);
     box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.02);
 }
+
+.contacts-search{
+    background-color: #505c8c;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 46px;
+    border-radius: 39px;
+    border: 0px;
+    width: -webkit-fill-available;
+    color: white;
+    outline: none;
+    padding-left: 20px;
+    font-size: 15px;
+    
+}
+
+.contacts-search::placeholder {
+    color: #f8f6f781;
+    font-size: 15px;
 }
 @media only screen and (min-width: 600px) {
     nav{
