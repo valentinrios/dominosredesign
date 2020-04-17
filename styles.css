@@ -74,13 +74,15 @@ nav div{
     box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.02);
 } 
 .contacts{
-    margin: 20px 20px 0px 20px;
+    margin: 20px 25px 0px;
 }
 .contacts-title{
     font-weight: bold;
 }
 
 .contacts-section{
+    display: flex;
+    align-items: center;
     background-color: white;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -110,6 +112,24 @@ nav div{
 .contacts-search::placeholder {
     color: #f8f6f781;
     font-size: 15px;
+}
+
+.contacts-section_img{
+    height: 50px;
+    margin: 5px;
+    border-radius: 15px;
+}
+
+.contacts-section_info{
+    margin-left: 10px;
+    font-size: 15px;
+}
+.contacts-section_info div:first-child{
+    font-weight: bold;
+}
+
+.contacts-section_info div:last-child{
+    color: gray;
 }
 @media only screen and (min-width: 600px) {
     nav{
