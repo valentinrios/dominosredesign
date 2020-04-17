@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: 'Roboto', sans-serif;
+}
 nav{
     position: fixed;
     bottom: 17px;
@@ -9,7 +16,7 @@ nav{
 nav div{    
     display: flex;
     justify-content: space-around;
-    background-color: #006491;
+    background-color: #373738;
     color: white;
     height: 65px;
     align-items: center;
@@ -17,6 +24,38 @@ nav div{
     font-size: 25px;
 }
 
+.top-options{    
+    color: white;
+    align-items: center;
+}
+
+.top-options section:nth-child(2){    
+    background-color: #373738;
+    padding-left: 20px;
+    padding-bottom: 17vh;
+    border-bottom-right-radius: 68px;
+    border-bottom-left-radius: 68px;
+}
+
+
+.title{
+    
+    background-color: #373738;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 6vh;
+    padding-bottom: 6vh;
+}
+
+.title div:first-child{
+    align-self: center;
+    margin-left: 20px;
+}
+
+.title div:nth-child(2){
+    align-self: center;
+    margin-right: 20px;
+}
 @media only screen and (min-width: 600px) {
     nav{
         width: 575px;
